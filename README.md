@@ -33,7 +33,9 @@ GIF created with ScreenToGif
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+I encountered challenges when trying to implement some components in the index.js file. It was tricky at first to get everything working together properly, but after spending more time on it, I was able to understand how it should all fit together.
+
+The search bar was another challenge. Adding it to the JavaScript file and making sure it worked well with the rest of the app took some effort, but I eventually figured it out and learned more in the process.
 
 ## License
 
