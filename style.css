@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Cabin';
+    background-color: #758190;
+}
+
+#tentacles {
+    width: 50px;
+}
+
+.header {
+    display: flex;
+    background-color: lightblue;
+    padding: 1%;
+    align-items: center;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
+    
+}
+/* Grouping the logo and header text */
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    margin-left: auto; /* Pushes the menu to the right */
+    display: flex;
+    gap: 15px; /* Space between menu items */
+   
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 700;
+    padding: 8px 12px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s, color 0.3s; /* Smooth transitions */
+    
+}
+
+.menu a:hover {
+    background-color: #f0f0f0; /* Light background on hover */
+    color: #758190; /* Change text color on hover */
+}
+.header-title{
+    text-align: center;
+}
+
+#description-container{
+    text-align: center;
+    padding:13%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: -10px;
+    margin-right: -10px;
+    background: linear-gradient(135deg, #758190, black, #758190); /* Gradient from blue to purple */
+    color: white; /* Text color contrast */
+}
+
+#stats{
+    margin-bottom:10%;
+    padding-top: 2%;
+}
+
+.stats-container {
+    display: flex; 
+    align-items: center; 
+}
+
+/* Hover effect */
+.stats-container:hover {
+    cursor: pointer; 
+    box-shadow: 0 0 30px lightblue; 
+}
+
+
+.stats-card {
+    background-color: #a8b0bc;
+    border-radius: 7px;
+    padding: 1%;
+    margin: 1%;
+    width: 100%;
+    text-align: center;
+}
+
+#num-contributions, #total-raised, #num-games {
+    font-size: 50px;
+}
+
+#games{
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 2%;
+    background: linear-gradient(135deg, #758190, black, #758190); /* Gradient from blue to purple */
+    color: white; 
+}
+
+#games-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.game-img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #FFFFFF;
+}
+
+.game-card {
+    background-color: #FFFFFF;
+    padding: 1%;
+    margin: 1%;
+    width: 300px;
+    text-align: center;
+    border-radius: 7px;
+}
+
+.game-card:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+}
+
+#button-container {
+    text-align: center;
+}
+
+button {
+    font-family: 'Cabin';
+    border: none;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 7px;
+}
+
+#unfunded-btn:hover{
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+}
+#funded-btn:hover{
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+}
+#all-btn:hover{
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+}
+
+#search-box {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    padding: 14px 16px;
+  }
+  
+  #search-box input[type="text"] {
+    font-size: 17px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
